@@ -13,7 +13,7 @@ clicks[1].onclick = function() {
   window.scroll({top: secondTop, behavior: 'smooth'})
 }
 clicks[2].onclick = function() {
-  window.scroll({top: thirdTop, behavior: 'smooth'})
+  window.scroll({top: thirdTop,   behavior: 'smooth'})
 }
 clicks[3].onclick = function() {
   window.scroll({top: fourthTop, behavior: 'smooth'})
