@@ -1,111 +1,112 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <!-- CSS 파일 연결 -->
-    <link rel="stylesheet" href="index.css">
-    <!-- 폰트 연결-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <title>About</title>
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <!-- CSS 파일 연결 -->
+  <link rel="stylesheet" href="index.css">
+  <!-- 폰트 연결-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <title>About</title>
+</head>
 
 
-  <body>
-    <header>
+<body>
+  <header>
+  </header>
+  <nav class="menu-bar">
+    <div class="index">
+      <!-- 프로필 이미지 -->
+      <div class="img">
+        <img id="porfile-img" src="./image/profile.png">
+      </div>
+      <br>
+      <!-- 목차 내용 -->
+      <h3 class="click">ABOUT</h3>
+      <h3 class="click">EXPERIENCE</h3>
+      <h3 class="click">FAVORITES</h3>
+      <h3 class="click"><a id='boardBtn'href="./write.html">BOARD</a></h3>
+    </div>
+  </nav>
+
+  <section class="about">
+    <!-- 이름 -->
+    <header class="name">
+      <p><span>Kang</span>&nbsp<span style="color: gray;">Han ur</span></p>
+      <!-- 연락처 -->
+      <div class="contacts">
+        <p>1992.07.31</p>
+        <p>rkdgksdjfwkd92@gmail.com</p>
+      </div>
     </header>
-      <nav class="menu-bar">
-        <div class = "index">
-          <!-- 프로필s 이미지 -->
-          <div class = "img">
-            <img id="porfile-img" src ="./image/profile.jpg">
-          </div>
-          <br>
-          <!-- 목차 내용 -->
-          <h3 class="click">ABOUT</h3>
-          <h3 class="click">EXPERIENCE</h3>
-          <h3 class="click">FAVORITES</h3>
-          <h3 class="click">BOARD</h3>
-        </div>
-      </nav>
+    <br><br>
+    <!-- 소개글 -->
+    <article class="main-introduction">
+      <p>안녕하세요! 강한얼입니다.<br>
+        저는 경영학과에서 경영학을 공부했고,<br>
+        개발자가 되기 위해 다시 공부를 시작했습니다.</p>
+      <br>
 
-      <section class="about">
-        <!-- 이름 -->
-        <header class="name">
-          <p><span>Kang</span>&nbsp<span style="color: gray;">Han ur</span></p>
-          <!-- 연락처 -->
-          <div class="contacts">
-            <p>1992.07.31</p>
-            <p>rkdgksdjfwkd92@gmail.com</p>
-          </div>
-        </header>
-        <br><br>
-        <!-- 소개글 -->
-        <article class="main-introduction">
-          <p>안녕하세요! 강한얼입니다.<br>
-            저는 경영학과에서 경영학을 공부했고,<br> 
-            개발자가 되기 위해 다시 공부를 시작했습니다.</p>
-          <br>
-          
-        </article>
-        <br><br>
-        <!-- SNS 픽토그램 -->
-        <footer class="sns-pictogram">
-          <a href='https://instagram.com/han_ur92'><i class="fa-brands fa-instagram fa-4x"></i></a>
-          <a href="https://github.com/hanur92"><i class="fa-brands fa-github fa-4x"></i></a>
-        </footer>
-      </section>
+    </article>
+    <br><br>
+    <!-- SNS 픽토그램 -->
+    <footer class="sns-pictogram">
+      <a href='https://instagram.com/han_ur92'><i class="fa-brands fa-instagram fa-4x"></i></a>
+      <a href="https://github.com/hanur92"><i class="fa-brands fa-github fa-4x"></i></a>
+    </footer>
+  </section>
 
-      <section class="experience">
-        <!-- 상단 텍스트 & 사진 -->
-        <div class="contents1">
-          <p class="title"><span>Green</span><span style="color: gray;">Each</span>&nbsp<span class="year">2020.09</span></p>
-          <img src="/image/project.gif"></img>
-          <p class="comment"> 2020.08 GreenEach 자신만의 식물을 가꾸어 올리는 미니 sns 서비스</p>
-          <br/>
-          <p class="comment">FrontEnd 역할을 맡았으며 파일 전송페이지와 파일 수정페이지를 만들었습니다.</p>
-         
-        </div>
-        <!-- 하단 텍스트 & 사진 -->
-       
-      </section>
+  <section class="experience">
+    <!-- 상단 텍스트 & 사진 -->
+    <div class="contents1">
+      <p class="title"><span>Green</span><span style="color: gray;">Each</span>&nbsp<span class="year">2020.09</span>
+      </p>
+      <img src="/image/project.gif"></img>
+      <p class="comment"> 2020.08 GreenEach 자신만의 식물을 가꾸어 올리는 미니 sns 서비스</p>
+      <br />
+      <p class="comment">FrontEnd 역할을 맡았으며 파일 전송페이지와 파일 수정페이지를 만들었습니다.</p>
 
-     
-      <section class="favorites">
-        <header>
-        <!-- 제목 -->
-        <p style="margin: 10px;" class="whatilove-text">FAVOR<span style="color: gray;">ITES</span><p>
-        </header>
-        <article>
-          <!-- 이미지 -->
-          <div class="whatilove-img">
-            <img src="/image/hobby.jpg">
-            <img src="/image/hobby1.jpg">
-            <br>
-            <img src="/image/travel.PNG">
-            <img src="/image/travel1.PNG">
-            <img src="/image/travel2.PNG">
-            <br>
-            <img src="/image/food1.PNG">
-            <img src="/image/food2.PNG">
-            <img src="/image/food3.PNG">
-          </div>
-          <!-- 코멘트 -->
-          <p class="comment">농구, 여행, 요리를 좋아해요.
-            <br/>
-            🏀 가드 포지션입니다.  주 3회 정도 동호회를 하고 있습니다.
-            <br/>
-            ✈️ 장기간 여행으로는 유럽을 두 번 갔다왔어요. 제일 좋았던 여행지는 스위스와 크로아티아였습니다.
-            <br/>
-            👨‍🍳 코로나가 터지면서 요리가 취미가 되었어요. 자신있는 요리는 스테이크와 파스타입니다.
-            <br/>
-          </p>
-        </article>
-      </section>
-      <section class="board">
-        <textarea form=""></textarea>
-      </section>
-      <!-- js 파일 연결 -->
-      <script type="text/javascript" src="index.js"></script>
-  </body>
+    </div>
+    <!-- 하단 텍스트 & 사진 -->
+
+  </section>
+
+
+  <section class="favorites">
+    <header>
+      <!-- 제목 -->
+      <p style="margin: 10px;" class="whatilove-text">FAVOR<span style="color: gray;">ITES</span>
+      <p>
+    </header>
+    <article>
+      <!-- 이미지 -->
+      <div class="whatilove-img">
+        <img src="/image/hobby.jpg">
+        <img src="/image/hobby1.jpg">
+        <br>
+        <img src="/image/travel.PNG">
+        <img src="/image/travel1.PNG">
+        <img src="/image/travel2.PNG">
+        <br>
+        <img src="/image/food1.PNG">
+        <img src="/image/food2.PNG">
+        <img src="/image/food3.PNG">
+      </div>
+      <!-- 코멘트 -->
+      <p class="comment">농구, 여행, 요리를 좋아해요.
+        <br />
+        🏀 가드 포지션입니다. 주 3회 정도 동호회를 하고 있습니다.
+        <br />
+        ✈️ 장기간 여행으로는 유럽을 두 번 갔다왔어요. 제일 좋았던 여행지는 스위스와 크로아티아였습니다.
+        <br />
+        👨‍🍳 코로나가 터지면서 요리가 취미가 되었어요. 자신있는 요리는 스테이크와 파스타입니다.
+        <br />
+      </p>
+    </article>
+  </section>
+   
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
 </html>

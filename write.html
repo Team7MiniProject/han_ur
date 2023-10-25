@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- CSS 파일 연결 -->
+    <link rel="stylesheet" href="write.css">
+    <!-- 폰트 연결-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <title>About</title>
+</head>
+
+
+<body>
+
+    <nav class="menu-bar">
+        <div class="index">
+            <!-- 프로필 이미지 -->
+            <div class="img">
+                <img id="porfile-img" src="./image/profile.png">
+            </div>
+            <br>
+            <!-- 목차 내용 -->
+            <h3 class="click"><a id='backBtn' href="./index.html">BACK</a></h3>
+            <h3 class="click"><a id='backBtn' href="./list.html">BOARDLIST</a></h3>
+        </div>
+    </nav>
+
+
+
+
+    <form id="writeFrm">
+
+        <div>writer : <input id="input" type="text" name="writer" size="19" maxlength="10" /></div>
+        <br>
+        <div>details : <textarea id="textarea" name="content"></textarea></div>
+        <br>
+        <input id="submitBtn" type="submit" value="write" />
+    </form>
+
+
+    <script type="text/javascript" src="./write.js"></script>
+</body>
+
+</html>
